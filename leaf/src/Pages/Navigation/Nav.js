@@ -4,13 +4,14 @@ import { Nav, Navbar, Form, FormControl, Button } from "react-bootstrap";
 export const NavigationBar = () => (
   <Navbar expand="lg">
     <Navbar.Brand href="/" className="Nav-Logo-Wrapper">
-      <img
+      {/* <img
         src={`${process.env.PUBLIC_URL}/MentorLogoTransBg.jpg`}
         alt="logo"
-        id="logo"></img>
+        id="logo"></img> */}
+      <h1>Leaf</h1>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    {/* <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Item>
           <Nav.Link
@@ -44,22 +45,17 @@ export const NavigationBar = () => (
           </Nav.Link>
         </Nav.Item>
       </Nav>
-    </Navbar.Collapse>
+    </Navbar.Collapse> */}
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Item>
-          <Nav.Link href="/Login">
-            <Button className="Nav-button" size="sm">
-              Login
-            </Button>
-          </Nav.Link>
+          <Nav.Link href="/Login">Sign In</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/">
-            <Button className="Nav-button" size="sm">
-              Log out
-            </Button>
-          </Nav.Link>
+          <Nav.Link> | </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/">Sign Up</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar.Collapse>

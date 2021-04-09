@@ -8,22 +8,46 @@ export class Content extends Component {
       <div id="root">
         <div className="Mission-wrapper">
           <div className="row">
+            <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+              <div className="row">
+                <div>
+                  <p className="row Statement-text">
+                    Together with Leaf, we can all contribute to saving our
+                    Earth
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-              <img
+              {/* <img
                 src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
                 alt="Introduction Picture"
-                id="introductionPic"></img>
+                id="introductionPic"></img> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="Mission-wrapper">
+          <div className="row">
+            <div className="FeatureTitle row">
+              <h3>Why?</h3>
+            </div>
+            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+              {/* <img
+                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+                alt="Introduction Picture"
+                id="introductionPic"></img> */}
             </div>
             <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
               <div className="row">
-                <div className="MissionStatement row">
-                  <h3>Our</h3>
-                  <h3 className="highlight-text"> &nbsp; Mission</h3>
-                </div>
                 <div>
                   <p className="row Statement-text">
-                    At MentorUp, we aim to ensure all students have adequate
-                    resources to succeed in high school and beyond.
+                    Transportation carbon emission caused 28% portion of
+                    greenhouse gas emissions in the U.S. On the other hand, the
+                    United States is the global leader in food waste, with
+                    nearly 40 million tons of food every year. Our earth is at a
+                    critical stage where everyone of us should contribute to
+                    protect our homeland.
                   </p>
                 </div>
               </div>
@@ -31,53 +55,63 @@ export class Content extends Component {
           </div>
         </div>
 
-        <div className="Feature-Wrapper">
+        <div className="Mission-wrapper">
           <div className="row">
             <div className="FeatureTitle row">
-              <h3>Features</h3>
+              <h3>How can Leaf Help?</h3>
             </div>
-            <div className="Feature-Item-Wrapper row">
-              <div className="feature-1 col-sm-4 col-md-4 col-xl-4 d-flex justify-content-center">
+            <div className="row">
+              <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
                 <div className="row">
-                  <div className="FeaturePic-Wrapper">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/Feature1.png`}
-                      alt="Illustration of Mentor Match"
-                      id="Feature1Pic"></img>
+                  <div>
+                    <p className="row Statement-text">
+                      Carbon Footprint calculator can help you calculate your
+                      carbon footprint everyday in the most efficent way.
+                    </p>
                   </div>
-                  <p className="Feature-Desc">
-                    Our Mentor match up feature can help you find the perfect
-                    mentor who share similar identity with you.
-                  </p>
                 </div>
               </div>
-              <div className="feature-2 col-sm-4 col-md-4 col-xl-4 d-flex">
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+                {/* <img
+                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+                alt="Introduction Picture"
+                id="introductionPic"></img> */}
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+                {/* <img
+                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+                alt="Introduction Picture"
+                id="introductionPic"></img> */}
+              </div>
+              <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
                 <div className="row">
-                  <div className="FeaturePic-Wrapper">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/Feature2.png`}
-                      alt="Illustration of online chat"
-                      id="Feature2Pic"></img>
+                  <div>
+                    <p className="row Statement-text">
+                      Our insight page can help you see your progress and
+                      ranking amoung all users.
+                    </p>
                   </div>
-                  <p className="Feature-Desc">
-                    Our online live message feature allows you to directly
-                    message the mentor who you interested in talking with.{" "}
-                  </p>
                 </div>
               </div>
-              <div className="feature-3 col-sm-4 col-md-4 col-xl-4 d-flex">
+            </div>
+            <div className="row">
+              <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
                 <div className="row">
-                  <div className="FeaturePic-Wrapper">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/Feature3.png`}
-                      alt="Illustration of online discussion"
-                      id="Feature3Pic"></img>
+                  <div>
+                    <p className="row Statement-text">
+                      Collect Points, and use those point to plant a real tree
+                      in real life. Take actions to help this world!
+                    </p>
                   </div>
-                  <p className="Feature-Desc">
-                    We have a community discussion page, where you can find high
-                    school student just like you and make friends with them.
-                  </p>
                 </div>
+              </div>
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+                {/* <img
+                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+                alt="Introduction Picture"
+                id="introductionPic"></img> */}
               </div>
             </div>
           </div>
@@ -85,9 +119,6 @@ export class Content extends Component {
 
         <div className="Intro-Video-Wrapper">
           <div className="row">
-            <div className="Join-statement col-auto col-sm-auto col-md-6 col-lg-6">
-              <h4>Join Our Community</h4>
-            </div>
             <div className="Video-Wrapper col-auto col-sm-auto col-md-6 col-lg-6">
               {/* <ReactPlayer
                 className="Video"
@@ -96,6 +127,17 @@ export class Content extends Component {
                 height={250}
               /> */}
             </div>
+            <div className="Join-statement col-auto col-sm-auto col-md-6 col-lg-6">
+              <h4>Watch this video to learn more about us!</h4>
+            </div>
+          </div>
+        </div>
+
+        <div className="Intro-Video-Wrapper">
+          <div className="row">
+            <button className="Nav-button" size="sm">
+              Get Started
+            </button>
           </div>
         </div>
       </div>

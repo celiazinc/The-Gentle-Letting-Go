@@ -10,7 +10,7 @@ export const NavigationBar = () => (
         id="logo"></img>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    {/* <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Item>
           <Nav.Link
@@ -44,7 +44,7 @@ export const NavigationBar = () => (
           </Nav.Link>
         </Nav.Item>
       </Nav>
-    </Navbar.Collapse>
+    </Navbar.Collapse> */}
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Item>

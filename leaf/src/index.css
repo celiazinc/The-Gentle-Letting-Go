@@ -9,6 +9,7 @@ h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  color: #202e4b;
 }
 
 p,
@@ -18,6 +19,7 @@ option,
 .filter-item select {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  color: #202e4b;
 }
 
 body,
@@ -100,7 +102,6 @@ html {
   /* NavBar*/
 
   .navbar {
-    background-color: white;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 1rem;
@@ -109,7 +110,7 @@ html {
   a,
   .navbar-nav,
   .navbar-light .nav-link {
-    color: black !important;
+    color: #202e4b !important;
     font-size: large;
   }
 
@@ -881,7 +882,6 @@ html {
   }
 
   .navbar {
-    background-color: white;
     padding-left: 5rem;
     padding-right: 5rem;
     margin-top: 1rem;
