@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kai Huang, Wayne Zhang, Celia Lyu, Skye Tian">
+	<meta name="description" content="Capstone static front page html"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body id="background-color">
+	<nav>
+        <ul>    
+            <ul>Leaf</ul>
+            <ul id="login-signup">Log in | Sign up</ul>
+        </ul>
+    </nav>
+    <div id="root">
+        <div class="Mission-wrapper">
+          <div class="row">
+            <div class="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+              <img
+                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+                alt="Introduction Picture"
+                id="introductionPic"></img>
+            </div>
+            <div class="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+              <div class="row">
+                <div class="MissionStatement row">
+                  <h3>Our</h3>
+                  <h3 class="highlight-text"> &nbsp; Mission</h3>
+                </div>
+                <div>
+                  <p class="row Statement-text">
+                    At MentorUp, we aim to ensure all students have adequate
+                    resources to succeed in high school and beyond.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="Feature-Wrapper">
+          <div class="row">
+            <div class="FeatureTitle row">
+              <h3>Features</h3>
+            </div>
+            <div class="Feature-Item-Wrapper row">
+              <div class="feature-1 col-sm-4 col-md-4 col-xl-4 d-flex justify-content-center">
+                <div class="row">
+                  <div class="FeaturePic-Wrapper">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/Feature1.png`}
+                      alt="Illustration of Mentor Match"
+                      id="Feature1Pic"></img>
+                  </div>
+                  <p class="Feature-Desc">
+                    Our Mentor match up feature can help you find the perfect
+                    mentor who share similar identity with you.
+                  </p>
+                </div>
+              </div>
+              <div class="feature-2 col-sm-4 col-md-4 col-xl-4 d-flex">
+                <div class="row">
+                  <div class="FeaturePic-Wrapper">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/Feature2.png`}
+                      alt="Illustration of online chat"
+                      id="Feature2Pic"></img>
+                  </div>
+                  <p class="Feature-Desc">
+                    Our online live message feature allows you to directly
+                    message the mentor who you interested in talking with.{" "}
+                  </p>
+                </div>
+              </div>
+              <div class="feature-3 col-sm-4 col-md-4 col-xl-4 d-flex">
+                <div class="row">
+                  <div class="FeaturePic-Wrapper">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/Feature3.png`}
+                      alt="Illustration of online discussion"
+                      id="Feature3Pic"></img>
+                  </div>
+                  <p class="Feature-Desc">
+                    We have a community discussion page, where you can find high
+                    school student just like you and make friends with them.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="Intro-Video-Wrapper">
+          <div class="row">
+            <div class="Join-statement col-auto col-sm-auto col-md-6 col-lg-6">
+              <h4>Join Our Community</h4>
+            </div>
+            <div class="Video-Wrapper col-auto col-sm-auto col-md-6 col-lg-6">
+              <ReactPlayer
+                class="Video"
+                url="https://youtu.be/kvNyZLYb0lk"
+                width={350}
+                height={250}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
