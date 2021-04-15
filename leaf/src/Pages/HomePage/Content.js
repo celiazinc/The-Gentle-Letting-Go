@@ -10,19 +10,16 @@ export class Content extends Component {
           <div className="row">
             <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
               <div className="row">
-                <div>
-                  <p className="row Statement-text">
-                    Together with Leaf, we can all contribute to saving our
-                    Earth
-                  </p>
-                </div>
+                <p className="row Statement-text">
+                  Together with Leaf, we can all contribute to saving our Earth
+                </p>
               </div>
             </div>
-            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-              {/* <img
-                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
-                alt="Introduction Picture"
-                id="introductionPic"></img> */}
+            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex pic-wrapper">
+              <img
+                src={`${process.env.PUBLIC_URL}/Eco_friendly.png`}
+                alt="Eco Friendly picture"
+                id="introductionPic"></img>
             </div>
           </div>
         </div>
@@ -32,24 +29,22 @@ export class Content extends Component {
             <div className="FeatureTitle row">
               <h3>Why?</h3>
             </div>
-            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-              {/* <img
-                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex pic-wrapper">
+              <img
+                src={`${process.env.PUBLIC_URL}/Global_Warming.png`}
                 alt="Introduction Picture"
-                id="introductionPic"></img> */}
+                id="introductionPic"></img>
             </div>
             <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
               <div className="row">
-                <div>
-                  <p className="row Statement-text">
-                    Transportation carbon emission caused 28% portion of
-                    greenhouse gas emissions in the U.S. On the other hand, the
-                    United States is the global leader in food waste, with
-                    nearly 40 million tons of food every year. Our earth is at a
-                    critical stage where everyone of us should contribute to
-                    protect our homeland.
-                  </p>
-                </div>
+                <p className="row Statement-text">
+                  Transportation carbon emission caused 28% portion of
+                  greenhouse gas emissions in the U.S. On the other hand, the
+                  United States is the global leader in food waste, with nearly
+                  40 million tons of food every year. Our earth is at a critical
+                  stage where everyone of us should contribute to protect our
+                  homeland.
+                </p>
               </div>
             </div>
           </div>
@@ -71,19 +66,19 @@ export class Content extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-                {/* <img
-                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
-                alt="Introduction Picture"
-                id="introductionPic"></img> */}
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex pic-wrapper">
+                <img
+                  src={`${process.env.PUBLIC_URL}/Calculator.png`}
+                  alt="Calculator"
+                  id="introductionPic"></img>
               </div>
             </div>
             <div className="row">
-              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-                {/* <img
-                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
-                alt="Introduction Picture"
-                id="introductionPic"></img> */}
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex pic-wrapper">
+                <img
+                  src={`${process.env.PUBLIC_URL}/Desk_Board.png`}
+                  alt="A Desk Dashboard"
+                  id="introductionPic"></img>
               </div>
               <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
                 <div className="row">
@@ -107,11 +102,11 @@ export class Content extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
-                {/* <img
-                src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
-                alt="Introduction Picture"
-                id="introductionPic"></img> */}
+              <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex pic-wrapper">
+                <img
+                  src={`${process.env.PUBLIC_URL}/Plant_Tree.png`}
+                  alt="Man Planting treee"
+                  id="introductionPic"></img>
               </div>
             </div>
           </div>
@@ -133,11 +128,20 @@ export class Content extends Component {
           </div>
         </div>
 
-        <div className="Intro-Video-Wrapper">
+        <div className="Mission-wrapper">
           <div className="row">
             <button className="Nav-button" size="sm">
               Get Started
             </button>
+          </div>
+        </div>
+
+        <div className="Mission-wrapper">
+          <div className="row">
+            <img
+              src={`${process.env.PUBLIC_URL}/City.png`}
+              alt="City Picture"
+              id="introductionPic"></img>
           </div>
         </div>
       </div>
