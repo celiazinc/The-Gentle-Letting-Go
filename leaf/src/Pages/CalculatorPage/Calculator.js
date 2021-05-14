@@ -66,6 +66,7 @@ export class Calculator extends Component {
                 <input
                   type="number"
                   name="mile"
+                  className="inputBox"
                   value={this.state.mile}
                   onChange={this.handleInputChange}
                 />
@@ -77,6 +78,7 @@ export class Calculator extends Component {
                 <input
                   type="number"
                   name="gallon"
+                  className="inputBox"
                   value={this.state.gallon}
                   onChange={this.handleInputChange}
                 />
@@ -95,6 +97,14 @@ export class Calculator extends Component {
             </form>
           </div>
         </section>
+        <div className="Mission-wrapper">
+          <div className="row">
+            <img
+              src={`${process.env.PUBLIC_URL}/City.png`}
+              alt="City Picture"
+              id="introductionPic"></img>
+          </div>
+        </div>
       </div>
     );
   }
